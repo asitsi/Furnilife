@@ -20,14 +20,27 @@
   justify-content: center;
   align-items: center;
 }
-
+.date span:nth-child(2) {
+  color: #29e7cd;
+  margin: 0 0.5rem;
+}
 .date {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
+  /* text-align: center; */
 }
-
+.date span {
+  font-size: 24px;
+  color: #60749d;
+  font-weight: 600 !important;
+}
+.blog-heading {
+  text-align: center;
+  color: #3c4860;
+  line-height: 132.4%;
+}
 .blog-main-image {
   width: 100%;
   height: 600px;
@@ -44,6 +57,7 @@
   font-weight: bold;
   font-size: 55px;
   margin-top: -10px;
+  text-align: center;
 }
 
 .subText {
@@ -76,11 +90,11 @@
 }
 .blog-img_avatar img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 138px;
+  height: 138px;
 }
 .blog-img_avatar p {
-  font-size: 25px;
+  font-size: 26px;
   color: #29e7cd;
   text-transform: capitalize;
   margin-top: 1rem;
@@ -203,11 +217,12 @@ a {
   flex-direction: column;
 }
 .related-blogs_card_content .content_publish_date {
-  font-size: 14px;
+  font-size: 16px;
   margin: 1rem 0;
 }
 .related-blogs_card_content .content_publish_date span {
   font-weight: bold;
+  font-size: 18px;
 }
 .related-blogs_card_img {
   height: 300px;
@@ -220,8 +235,8 @@ a {
   padding-top: 0.5rem;
 }
 .related-blogs_card .content_profile img {
-  width: 70px;
-  height: 70px;
+  width: 61px;
+  height: 61px;
   border-radius: 50%;
 }
 .related-blogs_card .content_profile div p {
@@ -229,6 +244,7 @@ a {
   margin-left: 1rem;
   color: #29e7cd;
   margin-top: 1rem;
+  font-size: 16px;
 }
 .related-blogs_card .content_profile div .content_profile_content_name {
   font-weight: bold;
@@ -318,7 +334,49 @@ a {
     margin-bottom: 2rem;
   }
   .related-blogs_card:nth-child(2) {
+    display: none;
     margin-left: 0px;
+  }
+  .blogTitle {
+    display: block;
+    padding: 0 30px;
+  }
+  .date {
+    text-align: start;
+    font-size: 8px;
+  }
+  .date span:nth-child(1) {
+    font-size: 10.59px;
+  }
+  .blog-heading {
+    text-align: start;
+  }
+  .subText {
+    display: none;
+  }
+  .blog-img_avatar {
+    flex-direction: row;
+    margin-top: -1rem;
+  }
+  .blog-img_avatar img {
+    width: 43.69px;
+    height: 43.69px;
+  }
+  .blog-img_avatar p {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+  .blog-img_avatar p span:nth-child(1) {
+    display: block;
+  }
+  .related-blogs_card_content .content_publish_date {
+    font-size: 8px;
+  }
+  .content_publish_date span:nth-child(1) {
+    font-size: 10.59px;
+  }
+  .related-blogs_card .content_profile div {
+    font-size: 10px;
   }
 }
 
